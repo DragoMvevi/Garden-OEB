@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden OEB</title>
+<meta name="description" content="نباتات فريدة وأواني مصممة وخدمات تنسيق حدائق احترافية من بستاني يعرف كل ورقة.">
+<link rel="icon" href="assets/logo.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Garden OEB">
+<meta property="og:description" content="نباتات فريدة وأواني مصممة وخدمات تنسيق حدائق احترافية من بستاني يعرف كل ورقة.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Garden OEB">
+<meta name="twitter:description" content="نباتات فريدة وأواني مصممة وخدمات تنسيق حدائق احترافية من بستاني يعرف كل ورقة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta property="og:image" content="assets/logo.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Garden OEB","description":"Unique plants, designer pots, and expert landscaping services from a gardener who knows every leaf.","telephone":"(+213) 0562800447","email":"GardenOeb@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Dz, Oum el Bouaghi"},"image":"assets/logo.jpg"}</script>
+</head>
+<body class="style-professional template-split">
+  <header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" data-i18n="hero.title">Garden OEB</a>
+    <div class="nav-controls">
+      <button id="theme-toggle" class="nav-icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+      <div class="lang-switcher">
+        <select id="lang-select" class="lang-select" aria-label="Select Language">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="ar">العربية</option>
+        </select>
+      </div>
+    </div>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open');document.querySelector('.nav-overlay').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'))"><span></span></button>
+    <nav><ul class="nav-links"><li><a href="#home" class="active" data-i18n="nav.home">Home</a></li><li><a href="#about" data-i18n="nav.about">About</a></li><li><a href="#services" data-i18n="nav.services">Services</a></li><li><a href="#contact" data-i18n="nav.contact">Contact</a></li><li><a href="#faq" data-i18n="nav.faq">FAQ</a></li></ul></nav>
+  </div>
+  <div class="nav-overlay" onclick="document.querySelector('.hamburger').classList.remove('open');document.querySelector('.nav-links').classList.remove('open');this.classList.remove('open')"></div>
+</header>
+  <main class="page-content template-split">
+    <div id="home"><section class="reveal" class="hero"><div class="container hero-split">
+  <div class="hero-inner">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Dz, Oum el Bouaghi</span>
+    <h1 data-i18n="hero.title">Garden OEB</h1>
+    <p data-i18n="hero.desc">Unique plants, designer pots, and expert landscaping services from a gardener who knows every leaf.</p>
+    <div class="hero-actions"><a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Get in touch</a><a href="#services" class="btn btn-outline" data-i18n="hero.cta2">Our services</a></div>
+  </div>
+  <div class="hero-image-wrap animate-float">
+    <img src="assets/hero.jpeg" alt="Garden OEB hero – lush plants and designer pots" style="width:100%;height:480px;object-fit:cover;border-radius:var(--radius);box-shadow:0 24px 60px rgba(16,185,129,.18)">
+</div></section>
+  <section class="reveal features-section" style="padding:4rem 0;background:var(--surface)">
+    <div class="container">
+      <div class="grid grid-4">
+        
+          <div class="feature-card" style="text-align:center">
+            <div class="icon-circle" style="width:64px;height:64px;margin:0 auto 1.5rem;border-radius:50%;overflow:hidden;background:var(--accent)">
+              <img src="assets/uniquePlants.jpeg" alt="Unique plants" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <h4 style="margin-bottom:0.5rem" data-i18n="features.plants">Unique plants</h4>
+            <p style="font-size:0.9rem;opacity:0.7" data-i18n="features.sub">Tailored excellence for your needs.</p>
+          </div>
+        
+          <div class="feature-card" style="text-align:center">
+            <div class="icon-circle" style="width:64px;height:64px;margin:0 auto 1.5rem;border-radius:50%;overflow:hidden;background:var(--accent)">
+              <img src="assets/pots.jpeg" alt="Designer pots" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <h4 style="margin-bottom:0.5rem" data-i18n="features.pots">Designer pots</h4>
+            <p style="font-size:0.9rem;opacity:0.7" data-i18n="features.sub">Tailored excellence for your needs.</p>
+          </div>
+        
+          <div class="feature-card" style="text-align:center">
+            <div class="icon-circle" style="width:64px;height:64px;margin:0 auto 1.5rem;border-radius:50%;overflow:hidden;background:var(--accent)">
+              <img src="assets/uniquePlants.jpeg" alt="Unique plants" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <h4 style="margin-bottom:0.5rem" data-i18n="features.seeds">Flower Seeds</h4>
+            <p style="font-size:0.9rem;opacity:0.7" data-i18n="features.sub">Tailored excellence for your needs.</p>
+          </div>
+        
+          <div class="feature-card" style="text-align:center">
+            <div class="icon-circle" style="width:64px;height:64px;margin:0 auto 1.5rem;border-radius:50%;overflow:hidden;background:var(--accent)">
+              <img src="assets/gardeningService.jpeg" alt="Gardening services" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <h4 style="margin-bottom:0.5rem" data-i18n="features.services">Gardening services</h4>
+            <p style="font-size:0.9rem;opacity:0.7" data-i18n="features.sub">Tailored excellence for your needs.</p>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <section class="reveal split-section" style="padding:6rem 0">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="eyebrow" data-i18n="why.eyebrow">Why choose us</span>
+          <h2 data-i18n="why.title">Quality you can trust</h2>
+          <p data-i18n="why.desc">Step into a world where every leaf has a legacy. This isn't just a shop; it’s a gardener’s sanctuary, hidden in plain sight.
+
+Here, the air is thick with the magic of growing things. It’s in the way a rare seed finally breaks through the soil, the weight of a hand-sculpted pot that feels like it was made just for your windowsill, and the quiet wisdom of a gardener who sees a masterpiece where others see an empty yard. We don’t just sell plants—we invite the wild, elegant beauty of nature to come home and stay a while.</p>
+          <div class="hero-actions" style="justify-content:flex-start;margin-top:2rem">
+            <a href="#about" class="btn btn-outline" data-i18n="why.btn">Read Our Story</a>
+          </div>
+        </div>
+        <div class="about-img-wrap animate-float">
+          <img src="assets/why you chose us.jpeg" alt="Why choose Garden OEB" style="width:100%;height:420px;object-fit:cover;border-radius:var(--radius);box-shadow:0 20px 50px rgba(16,185,129,.15)">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reveal testimonials"><div class="container">
+        <div class="section-title">
+          <span class="eyebrow" data-i18n="testimonials.eyebrow">Testimonials</span>
+          <h2 data-i18n="testimonials.title">What our clients say</h2>
+        </div>
+        <div class="grid">
+          <div class="testimonial">
+            <p class="quote" data-i18n="test.q1">Very Beautiful Products</p>
+            <div class="author">
+              <div class="avatar">R</div>
+              <div><div class="name" data-i18n="test.n1">Rahiq</div><div class="role" data-i18n="test.r1">Regular customer</div></div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="quote" data-i18n="test.q2">Amazing Store Masha Allah</p>
+            <div class="author">
+              <div class="avatar">D</div>
+              <div><div class="name" data-i18n="test.n2">Da Lya</div><div class="role" data-i18n="test.r2">Regular customer</div></div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="quote" data-i18n="test.q3">You Find the best Plants here.</p>
+            <div class="author">
+              <div class="avatar">T</div>
+              <div><div class="name" data-i18n="test.n3">Tawba</div><div class="role" data-i18n="test.r3">Regular customer</div></div>
+            </div>
+          </div></div>
+      </div></section></div>
+<div id="about"><section class="reveal"><div class="container">
+  <div class="about-grid">
+    <div class="about-img-wrap animate-float">
+      <img src="assets/aboutus.jpeg" alt="About Garden OEB" style="width:100%;height:420px;object-fit:cover;border-radius:var(--radius);box-shadow:0 20px 50px rgba(16,185,129,.15)">
+    </div>
+    <div class="about-content">
+      <span class="eyebrow" data-i18n="about.eyebrow">Our story</span>
+      <h2 data-i18n="about.title">About Garden OEB</h2>
+      <p data-i18n="about.desc1">Step into a world where every leaf has a legacy. This isn't just a shop; it’s a gardener’s sanctuary, hidden in plain sight.</p><p data-i18n="about.desc2">Here, the air is thick with the magic of growing things. It’s in the way a rare seed finally breaks through the soil, the weight of a hand-sculpted pot that feels like it was made just for your windowsill, and the quiet wisdom of a gardener who sees a masterpiece where others see an empty yard. We don’t just sell plants—we invite the wild, elegant beauty of nature to come home and stay a while.</p>
+      <div class="about-stats">
+        <div class="stat"><span class="num" data-i18n="about.stat1_num">12+</span><span class="lab" data-i18n="about.stat1_lab">Years</span></div>
+        <div class="stat"><span class="num" data-i18n="about.stat2_num">500+</span><span class="lab" data-i18n="about.stat2_lab">Clients</span></div>
+        <div class="stat"><span class="num" data-i18n="about.stat3_num">5★</span><span class="lab" data-i18n="about.stat3_lab">Rated</span></div>
+      </div>
+    </div>
+  </div>
+</div></section></div>
+<div id="services"><section class="reveal"><div class="container">
+      <div class="section-title">
+        <span class="eyebrow" data-i18n="services.eyebrow">Services</span>
+        <h2 data-i18n="services.title">What we provide</h2>
+        <p data-i18n="services.desc">Everything Garden OEB offers in Dz, Oum el Bouaghi.</p>
+      </div>
+      <div class="grid grid-3">
+      <div class="card">
+       <div class="card-img-wrap" style="overflow:hidden;border-radius:var(--radius) var(--radius) 0 0;height:200px">
+          <img src="assets/uniquePlants.jpeg" alt="Unique plants" style="width:100%;height:100%;object-fit:cover;transition:transform .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="card-body">
+          <h3 data-i18n="services.plants">Unique plants</h3>
+          <p style="margin:0" data-i18n="services.plants_desc">Tailored unique plants crafted for Garden OEB.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrap" style="overflow:hidden;border-radius:var(--radius) var(--radius) 0 0;height:200px">
+          <img src="assets/pots.jpeg" alt="Designer pots" style="width:100%;height:100%;object-fit:cover;transition:transform .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="card-body">
+          <h3 data-i18n="services.pots">Designer pots</h3>
+          <p style="margin:0" data-i18n="services.pots_desc">Tailored designer pots crafted for Garden OEB.</p>
+        </div>
+      </div>
+      <div class="card">
+       <div class="card-img-wrap" style="overflow:hidden;border-radius:var(--radius) var(--radius) 0 0;height:200px">
+          <img src="assets/seeds.jpeg" alt="Flower Seeds" style="width:100%;height:100%;object-fit:cover;transition:transform .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="card-body">
+          <h3 data-i18n="services.seeds">Flower Seeds</h3>
+          <p style="margin:0" data-i18n="services.seeds_desc">Tailored flower seeds crafted for Garden OEB.</p>
+        </div>
+      </div>
+      <div class="card">
+       <div class="card-img-wrap" style="overflow:hidden;border-radius:var(--radius) var(--radius) 0 0;height:200px">
+          <img src="assets/gardeningService.jpeg" alt="Gardening services" style="width:100%;height:100%;object-fit:cover;transition:transform .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+        <div class="card-body">
+          <h3 data-i18n="services.gardening">Gardening services</h3>
+          <p style="margin:0" data-i18n="services.gardening_desc">Tailored gardening services crafted for Garden OEB.</p>
+        </div>
+      </div></div>
+    </div></section></div>
+<div id="contact"><section class="reveal"><div class="container">
+      <div class="contact-split">
+        <div style="border-radius:var(--radius);overflow:hidden;min-height:420px;position:relative">
+          <img src="assets/contact.jpeg" alt="Contact Garden OEB" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0">
+        </div>
+        <div>
+          <span class="eyebrow" data-i18n="contact.eyebrow">Contact</span>
+          <h2 data-i18n="contact.title">Get in touch</h2>
+          <p data-i18n="contact.desc">We'd love to hear from you. Reach out and we'll get back within 24 hours.</p>
+          <div style="display:grid;gap:.75rem;margin:1.5rem 0">
+            <div><strong data-i18n="contact.phone">Phone:</strong> <a href="tel:(+213)0562800447" style="color:inherit;text-decoration:none">(+213) 0562800447</a></div>
+            <div><strong data-i18n="contact.loc">Location:</strong> <span data-i18n="contact.dz">Dz, Oum el Bouaghi</span></div>
+          </div>
+          <form class="contact-form" style="background:transparent;padding:0;border:0">
+            <input type="text" data-i18n-placeholder="contact.ph_name" placeholder="Your name" required>
+            <input type="email" data-i18n-placeholder="contact.ph_email" placeholder="Email address" required>
+            <textarea data-i18n-placeholder="contact.ph_msg" placeholder="Your message" required></textarea>
+            <div style="display:flex;gap:1rem;flex-wrap:nowrap;margin-top:.5rem;align-items:center;">
+              <button type="submit" class="btn btn-primary" data-i18n="contact.send" style="flex:1;white-space:nowrap;justify-content:center;display:flex;align-items:center;padding:0.75rem 1rem;">Send message</button>
+              <a href="https://www.facebook.com/profile.php?id=61564716990746" target="_blank" rel="noopener" style="flex:1;display:flex;justify-content:center;align-items:center;gap:.5rem;background:#1877f2;color:#fff;border-radius:99px;padding:.75rem 1rem;font-weight:600;text-decoration:none;transition:background .2s;white-space:nowrap;" onmouseover="this.style.background='#145db2'" onmouseout="this.style.background='#1877f2'">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.887v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+                <span data-i18n="contact.facebook" style="overflow:hidden;text-overflow:ellipsis;">Contact on Facebook</span>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div></section>
+</div>
+<div id="faq"><section class="reveal"><div class="container">
+  <div class="section-title">
+    <span class="eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+    <h2 data-i18n="faq.title">Common Questions</h2>
+    <p data-i18n="faq.desc">Find answers to the most frequently asked questions about Garden OEB.</p>
+  </div>
+  <div style="max-width:800px;margin:0 auto"><div class="card" style="margin-bottom:1rem">
+  <div class="card-body">
+    <h3 style="margin-bottom:0.5rem" data-i18n="faq.q1">What services do you offer?</h3>
+    <p style="margin:0" data-i18n="faq.a1">We specialize in Unique plants, Designer pots, Flower Seeds, Gardening services tailored to your specific needs.</p>
+  </div>
+</div><div class="card" style="margin-bottom:1rem">
+  <div class="card-body">
+    <h3 style="margin-bottom:0.5rem" data-i18n="faq.q2">How can I get a quote?</h3>
+    <p style="margin:0" data-i18n="faq.a2">Reach out via our contact page or call us directly. We provide free consultations and estimates.</p>
+  </div>
+</div><div class="card" style="margin-bottom:1rem">
+  <div class="card-body">
+    <h3 style="margin-bottom:0.5rem" data-i18n="faq.q3">Where are you located?</h3>
+    <p style="margin:0" data-i18n="faq.a3">Our primary office is located in Dz, Oum el Bouaghi, but we serve clients across the region.</p>
+  </div>
+</div><div class="card" style="margin-bottom:1rem">
+  <div class="card-body">
+    <h3 style="margin-bottom:0.5rem" data-i18n="faq.q4">What are your business hours?</h3>
+    <p style="margin:0" data-i18n="faq.a4">We are typically open Monday through Friday, 9:00 AM to 6:00 PM. Weekend appointments available.</p>
+  </div>
+</div></div>
+</div></section></div>
+  </main>
+  <footer class="site-footer">
+  <div class="container"><div class="footer-grid">
+    <div>
+      <h4 data-i18n="footer.title">Garden OEB</h4>
+      <p data-i18n="footer.loc">Dz, Oum el Bouaghi</p>
+      <p>(+213) 0562800447</p>
+      <a href="mailto:GardenOeb@gmail.com">GardenOeb@gmail.com</a>
+    </div>
+    <div><h4 data-i18n="footer.hours_title">Hours</h4><p style="white-space:pre-line" data-i18n="footer.hours">Saturday - Thursday : 8:00 AM – 12:00 PM
+24/7</p></div>
+    <div><h4 data-i18n="footer.follow">Follow</h4><div class="social-links"><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://www.facebook.com/profile.php?id=61564716990746" target="_blank" rel="noopener" aria-label="Facebook">FB</a></div></div>
+  </div></div>
+  <div class="container">
+    <p data-i18n="footer.copy">&copy; 2026 Garden OEB. All rights reserved.</p>
+  </div>
+</footer>
+  <div class="sticky-cta-container">
+    <a href="tel:(+213)0562800447" class="sticky-cta-call" data-i18n="sticky.call">Call now · (+213) 0562800447</a>
+    <a href="https://www.facebook.com/profile.php?id=61564716990746" target="_blank" rel="noopener" class="sticky-cta-fb" aria-label="Contact on Facebook">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.887v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+    </a>
+  </div>
+
+<script>
+// ───────────── TRANSLATIONS ─────────────
+const translations = {
+  en: {
+    'nav.home':'Home','nav.about':'About','nav.services':'Services','nav.contact':'Contact','nav.faq':'FAQ',
+    'hero.eyebrow':'Dz, Oum el Bouaghi','hero.title':'Garden OEB',
+    'hero.desc':'Unique plants, designer pots, and expert landscaping services from a gardener who knows every leaf.',
+    'hero.cta1':'Get in touch','hero.cta2':'Our services',
+    'features.plants':'Unique plants','features.pots':'Designer pots','features.seeds':'Flower Seeds','features.services':'Gardening services',
+    'features.sub':'Tailored excellence for your needs.',
+    'why.eyebrow':'Why choose us','why.title':'Quality you can trust',
+    'why.desc':"Step into a world where every leaf has a legacy. This isn't just a shop; it’s a gardener’s sanctuary, hidden in plain sight.\n\nHere, the air is thick with the magic of growing things. It’s in the way a rare seed finally breaks through the soil, the weight of a hand-sculpted pot that feels like it was made just for your windowsill, and the quiet wisdom of a gardener who sees a masterpiece where others see an empty yard. We don’t just sell plants—we invite the wild, elegant beauty of nature to come home and stay a while.",
+    'why.btn':'Read Our Story',
+    'testimonials.eyebrow':'Testimonials','testimonials.title':'What our clients say',
+    'test.q1':'Very Beautiful Products','test.n1':'Rahiq','test.r1':'Regular customer',
+    'test.q2':'Amazing Store Masha Allah','test.n2':'Da Lya','test.r2':'Regular customer',
+    'test.q3':'You Find the best Plants here.','test.n3':'Tawba','test.r3':'Regular customer',
+    'about.eyebrow':'Our story','about.title':'About Garden OEB',
+    'about.desc1':"Step into a world where every leaf has a legacy. This isn't just a shop; it’s a gardener’s sanctuary, hidden in plain sight.",
+    'about.desc2':"Here, the air is thick with the magic of growing things. It’s in the way a rare seed finally breaks through the soil, the weight of a hand-sculpted pot that feels like it was made just for your windowsill, and the quiet wisdom of a gardener who sees a masterpiece where others see an empty yard. We don’t just sell plants—we invite the wild, elegant beauty of nature to come home and stay a while.",
+    'about.stat1_num':'12+','about.stat1_lab':'Years',
+    'about.stat2_num':'500+','about.stat2_lab':'Clients',
+    'about.stat3_num':'5★','about.stat3_lab':'Rated',
+    'services.eyebrow':'Services','services.title':'What we provide','services.desc':'Everything Garden OEB offers in Dz, Oum el Bouaghi.',
+    'services.plants':'Unique plants','services.plants_desc':'Tailored unique plants crafted for Garden OEB.',
+    'services.pots':'Designer pots','services.pots_desc':'Tailored designer pots crafted for Garden OEB.',
+    'services.seeds':'Flower Seeds','services.seeds_desc':'Tailored flower seeds crafted for Garden OEB.',
+    'services.gardening':'Gardening services','services.gardening_desc':'Tailored gardening services crafted for Garden OEB.',
+    'contact.eyebrow':'Contact','contact.title':'Get in touch',
+    'contact.desc':"We'd love to hear from you. Reach out and we'll get back within 24 hours.",
+    'contact.phone':'Phone:','contact.loc':'Location:','contact.send':'Send message','contact.facebook':'Contact on Facebook',
+    'contact.dz':'Dz, Oum el Bouaghi',
+    'contact.ph_name':'Your name','contact.ph_email':'Email address','contact.ph_msg':'Your message',
+    'faq.eyebrow':'FAQ','faq.title':'Common Questions','faq.desc':'Find answers to the most frequently asked questions about Garden OEB.',
+    'faq.q1':'What services do you offer?','faq.a1':'We specialize in Unique plants, Designer pots, Flower Seeds, Gardening services tailored to your specific needs.',
+    'faq.q2':'How can I get a quote?','faq.a2':'Reach out via our contact page or call us directly. We provide free consultations and estimates.',
+    'faq.q3':'Where are you located?','faq.a3':'Our primary office is located in Dz, Oum el Bouaghi, but we serve clients across the region.',
+    'faq.q4':'What are your business hours?','faq.a4':'We are open Saturday through Thursday, from 8:00 AM to 12:00 PM. We are also available 24/7 online.',
+    'footer.title':'Garden OEB','footer.loc':'Dz, Oum el Bouaghi','footer.hours_title':'Hours','footer.follow':'Follow','footer.copy':'© 2026 Garden OEB. All rights reserved.',
+    'footer.hours':'Saturday - Thursday : 8:00 AM – 12:00 PM\n24/7',
+    'sticky.call':'Call now · (+213) 0562800447'
+  },
+  fr: {
+    'nav.home':'Accueil','nav.about':'À propos','nav.services':'Services','nav.contact':'Contact','nav.faq':'FAQ',
+    'hero.eyebrow':'Dz, Oum el Bouaghi','hero.title':'Garden OEB',
+    'hero.desc':'Des plantes uniques, des pots design et des services de jardinage experts d\'un jardinier qui connaît chaque feuille.',
+    'hero.cta1':'Nous contacter','hero.cta2':'Nos services',
+    'features.plants':'Plantes uniques','features.pots':'Pots design','features.seeds':'Graines de fleurs','features.services':'Services de jardinage',
+    'features.sub':'Excellence sur mesure pour vos besoins.',
+    'why.eyebrow':'Pourquoi nous choisir','why.title':'Une qualité de confiance',
+    'why.desc':"Entrez dans un monde où chaque feuille a un héritage. Ce n'est pas seulement un magasin ; c'est un sanctuaire de jardinier, caché à la vue de tous.\n\nIci, l'air est chargé de la magie des choses qui poussent. C'est dans la façon dont une graine rare perce enfin le sol, le poids d'un pot sculpté à la main qui semble avoir été fait pour votre rebord de fenêtre, et la sagesse tranquille d'un jardinier qui voit un chef-d'œuvre là où d'autres voient une cour vide. Nous ne vendons pas que des plantes — nous invitons la beauté sauvage et élégante de la nature à venir chez vous.",
+    'why.btn':'Notre histoire',
+    'testimonials.eyebrow':'Témoignages','testimonials.title':'Ce que disent nos clients',
+    'test.q1':'Très Beaux Produits','test.n1':'Rahiq','test.r1':'Client régulier',
+    'test.q2':'Superbe Magasin Masha Allah','test.n2':'Da Lya','test.r2':'Client régulier',
+    'test.q3':'Vous trouvez les meilleures plantes ici.','test.n3':'Tawba','test.r3':'Client régulier',
+    'about.eyebrow':'Notre histoire','about.title':'À propos de Garden OEB',
+    'about.desc1':"Entrez dans un monde où chaque feuille a un héritage. Ce n'est pas seulement un magasin ; c'est un sanctuaire de jardinier, caché à la vue de tous.",
+    'about.desc2':"Ici, l'air est chargé de la magie des choses qui poussent. C'est dans la façon dont une graine rare perce enfin le sol, le poids d'un pot sculpté à la main qui semble avoir été fait pour votre rebord de fenêtre, et la sagesse tranquille d'un jardinier qui voit un chef-d'œuvre là où d'autres voient une cour vide. Nous ne vendons pas que des plantes — nous invitons la beauté sauvage et élégante de la nature à venir chez vous.",
+    'about.stat1_num':'12+','about.stat1_lab':'Ans',
+    'about.stat2_num':'500+','about.stat2_lab':'Clients',
+    'about.stat3_num':'5★','about.stat3_lab':'Évalué',
+    'services.eyebrow':'Services','services.title':'Ce que nous proposons','services.desc':'Tout ce que Garden OEB offre à Dz, Oum el Bouaghi.',
+    'services.plants':'Plantes uniques','services.plants_desc':'Des plantes uniques sur mesure pour Garden OEB.',
+    'services.pots':'Pots design','services.pots_desc':'Des pots design sur mesure pour Garden OEB.',
+    'services.seeds':'Graines de fleurs','services.seeds_desc':'Des graines de fleurs sur mesure pour Garden OEB.',
+    'services.gardening':'Services de jardinage','services.gardening_desc':'Des services de jardinage sur mesure pour Garden OEB.',
+    'contact.eyebrow':'Contact','contact.title':'Prendre contact',
+    'contact.desc':"Nous serions ravis de vous entendre. Contactez-nous et nous vous répondrons dans les 24 heures.",
+    'contact.phone':'Téléphone :','contact.loc':'Emplacement :','contact.send':'Envoyer le message','contact.facebook':'Contacter sur Facebook',
+    'contact.dz':'Dz, Oum el Bouaghi',
+    'contact.ph_name':'Votre nom','contact.ph_email':'Adresse e-mail','contact.ph_msg':'Votre message',
+    'faq.eyebrow':'FAQ','faq.title':'Questions fréquentes','faq.desc':'Trouvez les réponses aux questions les plus fréquentes sur Garden OEB.',
+    'faq.q1':'Quels services proposez-vous ?','faq.a1':'Nous sommes spécialisés dans les plantes uniques, les pots design, les graines de fleurs et les services de jardinage adaptés à vos besoins.',
+    'faq.q2':'Comment puis-je obtenir un devis ?','faq.a2':'Contactez-nous via notre page de contact ou appelez-nous directement. Nous proposons des consultations et des devis gratuits.',
+    'faq.q3':'Où êtes-vous situés ?','faq.a3':'Notre bureau principal est situé à Dz, Oum el Bouaghi, mais nous servons des clients dans toute la région.',
+    'faq.q4':"Quelles sont vos heures d'ouverture ?",'faq.a4':'Nous sommes ouverts du samedi au jeudi, de 8h00 à 12h00. Nous sommes également disponibles 24h/24 et 7j/7 en ligne.',
+    'footer.title':'Garden OEB','footer.loc':'Dz, Oum el Bouaghi','footer.hours_title':'Heures','footer.follow':'Suivre','footer.copy':'© 2026 Garden OEB. Tous droits réservés.',
+    'footer.hours':'Samedi - Jeudi : 8h00 – 12h00\n24/7',
+    'sticky.call':'Appelez maintenant · (+213) 0562800447'
+  },
+  ar: {
+    'nav.home':'الرئيسية','nav.about':'من نحن','nav.services':'الخدمات','nav.contact':'اتصل بنا','nav.faq':'الأسئلة',
+    'hero.eyebrow':'الجزائر، أم البواقي','hero.title':'Garden OEB',
+    'hero.desc':'نباتات فريدة وأواني مصممة وخدمات تنسيق حدائق احترافية من بستاني يعرف كل ورقة.',
+    'hero.cta1':'تواصل معنا','hero.cta2':'خدماتنا',
+    'features.plants':'نباتات فريدة','features.pots':'أواني مصممة','features.seeds':'بذور الزهور','features.services':'خدمات البستنة',
+    'features.sub':'تميز مصمم خصيصًا لاحتياجاتك.',
+    'why.eyebrow':'لماذا تختارنا','why.title':'جودة يمكنك الوثوق بها',
+    'why.desc':"ادخل إلى عالم يكون فيه لكل ورقة إرث. هذا ليس مجرد متجر؛ إنه ملاذ بستاني، مخفي على مرأى من الجميع.\n\nهنا، الهواء مليء بسحر الأشياء التي تنمو. إنه في الطريقة التي تخترق بها بذرة نادرة التربة أخيرًا، وزن إناء منحوت يدويًا يبدو وكأنه صُنع خصيصًا لعتبة نافذتك، والحكمة الهادئة لبستاني يرى تحفة فنية حيث يرى الآخرون ساحة فارغة. نحن لا نبيع النباتات فحسب، بل ندعو الجمال البري والأنيق للطبيعة ليأتي إلى المنزل ويبقى لفترة من الوقت.",
+    'why.btn':'اقرأ قصتنا',
+    'testimonials.eyebrow':'آراء العملاء','testimonials.title':'ماذا يقول عملاؤنا',
+    'test.q1':'منتجات جميلة جداً','test.n1':'رحيق','test.r1':'زبون دائم',
+    'test.q2':'متجر رائع ما شاء الله','test.n2':'داليا','test.r2':'زبون دائم',
+    'test.q3':'تجد أفضل النباتات هنا.','test.n3':'توبة','test.r3':'زبون دائم',
+    'about.eyebrow':'قصتنا','about.title':'نبذة عن Garden OEB',
+    'about.desc1':"ادخل إلى عالم يكون فيه لكل ورقة إرث. هذا ليس مجرد متجر؛ إنه ملاذ بستاني، مخفي على مرأى من الجميع.",
+    'about.desc2':"هنا، الهواء مليء بسحر الأشياء التي تنمو. إنه في الطريقة التي تخترق بها بذرة نادرة التربة أخيرًا، وزن إناء منحوت يدويًا يبدو وكأنه صُنع خصيصًا لعتبة نافذتك، والحكمة الهادئة لبستاني يرى تحفة فنية حيث يرى الآخرون ساحة فارغة. نحن لا نبيع النباتات فحسب، بل ندعو الجمال البري والأنيق للطبيعة ليأتي إلى المنزل ويبقى لفترة من الوقت.",
+    'about.stat1_num':'+12','about.stat1_lab':'سنوات',
+    'about.stat2_num':'+500','about.stat2_lab':'عملاء',
+    'about.stat3_num':'5★','about.stat3_lab':'تقييم',
+    'services.eyebrow':'الخدمات','services.title':'ما نقدمه','services.desc':'كل ما تقدمه Garden OEB في أم البواقي، الجزائر.',
+    'services.plants':'نباتات فريدة','services.plants_desc':'نباتات فريدة مصممة خصيصًا لـ Garden OEB.',
+    'services.pots':'أواني مصممة','services.pots_desc':'أواني مصممة خصيصًا لـ Garden OEB.',
+    'services.seeds':'بذور الزهور','services.seeds_desc':'بذور زهور مصممة خصيصًا لـ Garden OEB.',
+    'services.gardening':'خدمات البستنة','services.gardening_desc':'خدمات بستنة مصممة خصيصًا لـ Garden OEB.',
+    'contact.eyebrow':'تواصل','contact.title':'تواصل معنا',
+    'contact.desc':"يسعدنا سماع منك. تواصل معنا وسنرد خلال 24 ساعة.",
+    'contact.phone':'الهاتف:','contact.loc':'الموقع:','contact.send':'إرسال الرسالة','contact.facebook':'تواصل عبر فيسبوك',
+    'contact.dz':'الجزائر، أم البواقي',
+    'contact.ph_name':'الاسم','contact.ph_email':'البريد الإلكتروني','contact.ph_msg':'رسالتك',
+    'faq.eyebrow':'الأسئلة الشائعة','faq.title':'أسئلة شائعة','faq.desc':'اعثر على إجابات لأكثر الأسئلة شيوعًا حول Garden OEB.',
+    'faq.q1':'ما هي الخدمات التي تقدمونها؟','faq.a1':'نحن متخصصون في النباتات الفريدة، والأواني المصممة، وبذور الزهور، وخدمات البستنة المصممة خصيصًا لتلبية احتياجاتك.',
+    'faq.q2':'كيف يمكنني الحصول على عرض أسعار؟','faq.a2':'تواصل معنا عبر صفحة الاتصال أو اتصل بنا مباشرة. نحن نقدم استشارات وتقديرات مجانية.',
+    'faq.q3':'أين تقعون؟','faq.a3':'يقع مكتبنا الرئيسي في أم البواقي، الجزائر، لكننا نخدم العملاء في جميع أنحاء المنطقة.',
+    'faq.q4':'ما هي ساعات العمل لديكم؟','faq.a4':'نحن نعمل من السبت إلى الخميس، من 8:00 صباحًا إلى 12:00 مساءً. كما أننا متاحون عبر الإنترنت على مدار الساعة طوال أيام الأسبوع.',
+    'footer.title':'Garden OEB','footer.loc':'الجزائر، أم البواقي','footer.hours_title':'ساعات العمل','footer.follow':'تابعنا','footer.copy':'© 2026 Garden OEB. جميع الحقوق محفوظة.',
+    'footer.hours':'السبت - الخميس : 8:00 ص – 12:00 م\n24/7',
+    'sticky.call':'اتصل الآن · (+213) 0562800447'
+  }
+};
+
+// ───────────── LANGUAGE ─────────────
+let currentLang = localStorage.getItem('lang') || 'ar'; // Default to Arabic
+
+function applyLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('lang', lang);
+  const t = translations[lang] || translations.en;
+  // RTL for Arabic
+  document.documentElement.setAttribute('lang', lang);
+  document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  // Apply translations to data-i18n elements
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (t[key]) el.innerHTML = t[key].replace(/\n/g, '<br>');
+  });
+  // Apply translations to placeholders
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (t[key]) el.placeholder = t[key];
+  });
+  // Update select dropdown
+  const langSelect = document.getElementById('lang-select');
+  if (langSelect && langSelect.value !== lang) {
+    langSelect.value = lang;
+  }
+}
+
+const langSelectElement = document.getElementById('lang-select');
+if (langSelectElement) {
+  langSelectElement.addEventListener('change', (e) => applyLang(e.target.value));
+}
+
+// ───────────── DARK MODE ─────────────
+const themeToggle = document.getElementById('theme-toggle');
+let isDark = localStorage.getItem('theme') === 'dark';
+
+function applyTheme(dark) {
+  isDark = dark;
+  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  
+  const sunIcon = themeToggle.querySelector('.sun-icon');
+  const moonIcon = themeToggle.querySelector('.moon-icon');
+  if (sunIcon && moonIcon) {
+    sunIcon.style.display = dark ? 'block' : 'none';
+    moonIcon.style.display = dark ? 'none' : 'block';
+  }
+  
+  localStorage.setItem('theme', dark ? 'dark' : 'light');
+}
+
+// Init theme from storage
+applyTheme(isDark);
+
+themeToggle.addEventListener('click', () => applyTheme(!isDark));
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Apply saved language on load
+  applyLang(currentLang);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  
+  // Image fallback (avoid 404 broken icon)
+  document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('error', () => { img.style.visibility='hidden'; }, { once: true });
+  });
+  // Make contact forms functional via mailto fallback
+  const TARGET_EMAIL = "GardenOeb@gmail.com";
+  document.querySelectorAll('form.contact-form').forEach(form => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const fd = new FormData(form);
+      const inputs = form.querySelectorAll('input, textarea');
+      const name = (inputs[0] && inputs[0].value) || '';
+      const email = (inputs[1] && inputs[1].value) || '';
+      const message = (inputs[2] && inputs[2].value) || '';
+      if (TARGET_EMAIL) {
+        const subject = encodeURIComponent('Website inquiry from ' + name);
+        const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+        window.open('https://mail.google.com/mail/?view=cm&fs=1&to=' + TARGET_EMAIL + '&su=' + subject + '&body=' + body, '_blank');
+      } else {
+        alert('Thanks ' + name + '! We received your message and will reply soon.');
+        form.reset();
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
